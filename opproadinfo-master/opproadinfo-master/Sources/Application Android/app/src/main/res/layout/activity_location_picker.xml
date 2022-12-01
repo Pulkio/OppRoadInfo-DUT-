@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mapbox:mapbox_cameraZoom="15"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        mapbox:layout_constraintBottom_toBottomOf="parent"
+        android:background="@android:color/white"
+        android:elevation="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/offlineMapRadiusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="@string/downloadRadiusPlaceHolder"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_margin="10dp"/>
+
+        <SeekBar
+            android:id="@+id/offlineMapRadius"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="20"
+            android:min="1"
+            android:progress="10"
+            android:layout_margin="10dp"
+            tools:targetApi="o" />
+
+        <Button
+            android:id="@+id/select_location_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/select"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

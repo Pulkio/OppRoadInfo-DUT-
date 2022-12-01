@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="100dp"
+        android:text="@string/report"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/accident_button"
+        style="@style/buttonEvent"
+        android:background="@drawable/rounded_corner_red"
+        android:text="@string/accident" />
+
+    <Button
+        android:id="@+id/traffic_button"
+        style="@style/buttonEvent"
+        android:background="@drawable/rounded_corner_orange"
+        android:text="@string/traffic" />
+
+    <Button
+        android:id="@+id/work_button"
+        style="@style/buttonEvent"
+        android:background="@drawable/rounded_corner_yellow"
+        android:text="@string/works" />
+
+    <Button
+        android:id="@+id/check_button"
+        style="@style/buttonEvent"
+        android:background="@drawable/rounded_corner_yellow"
+        android:text="@string/check" />
+</LinearLayout>

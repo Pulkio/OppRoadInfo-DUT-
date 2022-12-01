@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">OppRoadInfo</string>
+    <string name="package_name">fr.ubs.opproadinfo</string>
+
+    <string name="user_location_permission_explanation">Acceder à la localisation</string>
+    <string name="user_location_permission_not_granted">Vous n\'avez pas donné l\'accès à votre localisation</string>
+    <string name="noGps">Aucun signal GPS</string>
+    <string name="plsStartGps">Veuillez activer votre GPS</string>
+    <string name="ok">OK</string>
+
+    <!-- Events -->
+    <string name="accident">ACCIDENT</string>
+    <string name="traffic">EMBOUTEILLAGES</string>
+    <string name="works">TRAVAUX</string>
+    <string name="check">ZONE DE CONTRÔLE</string>
+    <string name="report">SIGNALER UN EVENEMENT</string>
+
+    <string name="parameters">PARAMÈTRES</string>
+    <string name="change_alert_radius">CHANGER LE RAYON D\'ALERTE</string>
+
+    <string name="select">Selectionner</string>
+    <string name="cancel">Annuler</string>
+
+    <!-- Save keys -->
+    <string name="save_radius">fr.univ.opproadinfo.ALERT_RADIUS</string>
+    <string name="save_dark">fr.univ.opproadinfo.DARK_MODE</string>
+    <string name="save_accident">fr.univ.opproadinfo.ACCIDENT</string>
+    <string name="save_embouteillage">fr.univ.opproadinfo.EMBOUTEILLAGE</string>
+    <string name="save_travaux">fr.univ.opproadinfo.TRAVAUX</string>
+    <string name="save_zoneDeControle">fr.univ.opproadinfo.ZONE_DE_CONTROLE</string>
+    <string name="save_voix">fr.univ.opproadinfo.VOIX</string>
+    <string name="basic_offline_deleted_toast">DELETED_TOATS</string>
+
+
+    <!-- TOKEN MAPBOX -->
+    <string name="mapbox_access_token">pk.eyJ1Ijoib3Bwcm9hZGluZm8iLCJhIjoiY2tpYzRqZWNuMTV3YjJybGJsOTN6Z3drMiJ9.roz0DGJWAPOm55e9N9tlZQ</string>
+    <string name="download_map">Télécharger une carte</string>
+
+    <!-- Notifications -->
+    <string name="accident_notif">"ACCIDENT SIGNALÉ "</string>
+    <string name="traffic_notif"><br>EMBOUTEILLAGES\n</br><br>SIGNALÉS</br></string>
+    <string name="work_notif">"TRAVAUX SIGNALÉS "</string>
+    <string name="check_notif"><br>ZONE DE CONTRÔLE\n</br><br>SIGNALÉE</br></string>
+    <string name="notification">NOTIFICATION</string>
+    <string name="description_notif">Alerte de circulation</string>
+
+    <!-- Confirmation -->
+
+    <string name="accident_confirm"><br>ACCIDENT \n</br><br>À PROXIMITÉ </br></string>
+    <string name="traffic_confirm"><br>EMBOUTEILLAGES \n</br><br>À PROXIMITÉ </br></string>
+    <string name="check_confirm"><br>ZONE DE CONTRÔLE \n</br><br>À PROXIMITÉ </br></string>
+    <string name="worlk_confirm"><br>TRAVAUX \n</br><br>À PROXIMITÉ </br></string>
+    <string name="confirm_question">"CONFIRMER ? "</string>
+    
+    <!-- Notifications externes -->
+    <string name="external_traffic">Un embouteillage a été signalé à proximité</string>
+    <string name="external_check">Une zone de contrôle a été signalée à proximité</string>
+    <string name="external_work">Une zone de travaux a été signalée à proximité</string>
+    <string name="external_accident">Un accident a été signalé à proximité</string>
+
+    <string name="external_traffic_title">Embouteillage signalé</string>
+    <string name="external_check_title">Zone de contrôle signalée</string>
+    <string name="external_work_title">Travaux signalés</string>
+    <string name="external_accident_title">Accident signalé</string>
+
+
+    <string name="km">" Km"</string>
+    <string name="modify">Modifier</string>
+
+
+    <!-- Offline map menu   -->
+    <string name="delete">Supprimer</string>
+    <string name="deleteQuestion">"Voulez-vous supprimer la carte "</string>
+    <string name="questionMark">" ?"</string>
+    <string name="modifyNameMap">"Modifier le nom de la carte"</string>
+    <string name="myMap">Ma carte</string>
+    <string name="enterYourMapName">Entrez le nom de la carte</string>
+    <string name="downloadRadius">Rayon de téléchargement : </string>
+    <string name="downloadRadiusPlaceHolder">Rayon de téléchargement : 10 Km</string>
+    <string name="addFirstMap">Ajoutez votre première carte</string>
+    <string name="arrow">An arrow</string>
+    <string name="addMap">Download map button</string>
+
+    <!-- Layouts -->
+    <string name="descCameraFocus">Focus the camera on your position</string>
+    <string name="descReportButton">Report button to report events on the road</string>
+    <string name="descParameterButton">Parameters button</string>
+    <string name="descNotifImage">Notification to warn you</string>
+    <string name="descNotifConfirm">Pop up to ask you to confirm or not an event on the road</string>
+    <string name="thumbImage">A thumb image which is green, red or a question mark, to show the quality of the event</string>
+    <string name="close">Close the notification</string>
+    <string name="thumbUp">The event is still here</string>
+    <string name="thumbDown">The event is gone</string>
+    <string name="logoBanner">The logo of the app</string>
+    <string name="voice">VOIX</string>
+    <string name="dark_mode">MODE SOMBRE</string>
+    <string name="offlineMapsManager">gestion des cartes hors ligne</string>
+
+</resources>
